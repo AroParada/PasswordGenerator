@@ -28,7 +28,7 @@ var pwUpAlphabet = confirm(
   "add uppercase letters?"
 );
 var pwStore ="";
-
+// The concat() method is used to join two or more arrays.
 if (pwSpecial) {
   pwStore = pwStore.concat(special);
 }
